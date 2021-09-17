@@ -1,0 +1,104 @@
+<body>
+  <head>
+    <style>
+      .contenedor {
+        width: 800px;
+        height: 100%;
+        margin: auto;
+        border: 1px solid black;
+      }
+
+      .header {
+        width: 100%;
+        height: 120px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+
+      .logo {
+        border: 1px solid black;
+        width: 100px;
+        text-align: center;
+        padding: 35px 0;
+        margin: 20px;
+      }
+
+      .titulo {
+        flex-grow: 1;
+      }
+
+      .redes {
+        display: flex;
+      }
+
+      .redes .twitter {
+        border: 1px solid black;
+        height: 20px;
+        margin: 10px;
+      }
+      .redes .facebook {
+        height: 20px;
+        border: 1px solid black;
+        margin: 10px;
+      }
+
+      .menu {
+        border: 1px solid black;
+      }
+
+      .menu-item {
+        margin: 0 10px;
+      }
+
+      .cuerpo {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .panel-izquierdo {
+        border: 1px solid black;
+        padding: 20px;
+        flex-grow: 1;
+      }
+
+      .panel-derecho {
+        border: 1px solid black;
+        padding: 20px;
+        width: 250px;
+      }
+
+      .footer {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <html>
+    <div class="contenedor">
+      <div class="header">
+        <div class="logo">LOGO</div>
+        <div class="titulo">Titulo</div>
+
+        <div class="redes">
+          <div class="twitter">TWITTER</div>
+          <div class="twitter">FACEBOOK</div>
+        </div>
+      </div>
+      <div class="menu">
+        <a class="menu-item">OFERTAS</a>
+        <a class="menu-item">PRODUCTOS</a>
+      </div>
+      <div class="cuerpo">
+        <div class="panel-izquierdo">
+          <h4>OFERTAS</h4>
+        </div>
+        <div class="panel-derecho">
+          <h4>ARTÍCULOS MÁS VENDIDOS</h4>
+        </div>
+      </div>
+      <div class="footer">
+        FOOTER
+      </div>
+    </div>
+  </html>
+</body>
